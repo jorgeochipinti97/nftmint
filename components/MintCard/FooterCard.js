@@ -9,7 +9,7 @@ export const FooterCard = () => {
             <a
                 href='https://rinkeby.etherscan.io/address/0xA86eF127D4d9083E55f89b0CD4a18586C7d4aee3'
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer" 
                 className="text-gray-400 mt-4"
             >
                 <span className="break-all ...">0xA86eF127D4d9083E55f89b0CD4a18586C7d4aee3</span>

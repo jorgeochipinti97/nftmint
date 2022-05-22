@@ -64,7 +64,7 @@ export const ButtonMint = ({ isPaused, isPreSale, account, contract }) => {
             return {
                 success: true,
                 status: (
-                    <a href={`https://rinkeby.etherscan.io/tx/${txHash}`} target="_blank">
+                    <a href={`https://rinkeby.etherscan.io/tx/${txHash}`} target="_blank" rel="noreferrer" >
                         <p>Click here to check out your transaction on Etherscan</p>
                     </a>
                 )
@@ -110,7 +110,7 @@ export const ButtonMint = ({ isPaused, isPreSale, account, contract }) => {
             return {
                 success: true,
                 status: (
-                    <a href={`https://rinkeby.etherscan.io/tx/${txHash}`} target="_blank">
+                    <a href={`https://rinkeby.etherscan.io/tx/${txHash}`} target="_blank" rel="noreferrer" >
                         <p>Click here to check out your transaction on Etherscan</p>
                     </a>
                 )
