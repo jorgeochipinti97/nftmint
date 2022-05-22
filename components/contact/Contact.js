@@ -12,22 +12,22 @@ const Contact = () => {
 
     return (
         <div className='flex justify-center'>
-            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
+            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null} cursor-pointer`}>
                 <Link href='https://www.linkedin.com/in/jorge-ochipinti-3232971a6/'>
                     <LinkedInIcon />
                 </Link>
             </div>
-            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
+            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null} cursor-pointer`}>
                 <Link href='https://github.com/jorgeochipinti97/nftmint'>
                     <GitHubIcon />
                 </Link>
             </div>
-            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
+            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null} cursor-pointer`}>
                 <Link href='#'>
                     <TwitterIcon />
                 </Link>
             </div>
-            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
+            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null} cursor-pointer`}>
                 <Link href='mailto:jorgeochipinti97@gmail.com'>
                     <MailIcon />
                 </Link>
