@@ -4,7 +4,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { useRouter } from 'next/router'
 import Link from 'next/link';
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Contact = () => {
 
@@ -15,6 +15,11 @@ const Contact = () => {
             <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
                 <Link href='https://www.linkedin.com/in/jorge-ochipinti-3232971a6/'>
                     <LinkedInIcon />
+                </Link>
+            </div>
+            <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
+                <Link href='https://github.com/jorgeochipinti97/nftmint'>
+                    <GitHubIcon />
                 </Link>
             </div>
             <div className={`p-2 ${asPath == '/mint' ? 'text-gray-300' : null}`}>
